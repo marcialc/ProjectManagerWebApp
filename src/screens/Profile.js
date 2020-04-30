@@ -5,7 +5,7 @@ export default class Profile extends Component {
     return (
       <div>
         <p>
-          LUCHI
+          Luciano Cuneo
         </p>
       </div>
     );
