@@ -1,0 +1,17 @@
+h3{
+    color: red;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 0.5fr 1fr [ca] 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "header-toolbar header-toolbar header-toolbar header-toolbar" "story-feed story-feed story-feed calendar" "story-feed story-feed story-feed calendar";
+  }
+  
+  .story-feed { grid-area: story-feed; }
+  
+  .calendar { grid-area: calendar; }
+  
+  .header-toolbar { grid-area: header-toolbar; }
